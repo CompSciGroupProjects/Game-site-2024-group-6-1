@@ -1,0 +1,18 @@
+.ComputersStyle{
+padding-top: 65px;
+
+}
+
+.winnerClass{
+    padding-top: 50px;
+    color: red;
+    text-align: center
+}
+
+.displayStyle{
+    pointer-events: none;
+}
+
+.rockClass{
+
+}
