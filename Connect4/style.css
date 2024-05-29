@@ -1,0 +1,54 @@
+body {
+    background-color: peachpuff;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
+#game-status {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 110px);
+    grid-template-rows: repeat(6, 110px);
+    width: 800px;
+    height: 695px;
+    margin: 0 auto;
+    background-color: black;
+    border: 5px solid black;
+    gap: 5px;
+    border-radius: 20px;
+}
+
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+
+.cell.red {
+    background-color: red;
+}
+
+
+.cell.yellow {
+    background-color: yellow;
+}
+
+
+#restart-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
