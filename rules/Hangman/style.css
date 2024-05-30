@@ -12,6 +12,7 @@ body {
 #gameTitle {
     margin-top: 5vw;
     text-align: center;
+    font-size: 5vw;
 }
 
 #desc {

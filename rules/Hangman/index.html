@@ -2,31 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Game Title</title>
+    <title>Hangman</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../../navbar.css">
 </head>
 <body>
 <div id="navbar">
     <ul id="navList">
-        <li><a href="#" class="navitem">Home</a></li>
-        <li><a href="#" class="navitem">Rock Paper Scissors</a></li>
-        <li><a href="#" class="navitem">Tic Tac Toe</a></li>
-        <li><a href="#" class="navitem">Connect Four</a></li>
-        <li><a href="#" class="navitem active">Hangman</a></li>
+        <li><a href="../../" class="navitem">Home</a></li>
+        <li><a href="../RockPaperScissors" class="navitem">Rock Paper Scissors</a></li>
+        <li><a href="../TicTacToe" class="navitem">Tic Tac Toe</a></li>
+        <li><a href="../Connect4" class="navitem">Connect Four</a></li>
+        <li><a href="../Hangman" class="navitem active">Hangman</a></li>
     </ul>
 </div>
 
 
-<h1 id="gameTitle">Game Title</h1>
+<h1 id="gameTitle">Hangman</h1>
 
 <div id="descContainer">
     <div id="desc">
-        <p>Game Rules</p>
+        <p>A random word is chosen from a list of over 3,000 words!<br>You get 7 lives to guess letters and get the word!<br>Correct letters do not count against lives!<br>Be mindful of which letters you guess!</p>
     </div>
 </div>
 <div id="buttonContainer">
-    <button id="play">Click to Play!</button>
+    <button id="play" onclick="window.location.href = '../../Hangman'">Click to Play!</button>
 </div>
 </body>
 </html>
