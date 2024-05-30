@@ -4,11 +4,11 @@ function rockFunc() {
     const RPSarr = ['Rock', 'Paper', 'Scissors'];
     document.getElementById("Display1").innerHTML = RPSarr[numA];
     document.getElementById("userDisplay").innerHTML = "Rock";
-let stringA = RPSarr[numA];
-if (stringA === rockString) {
-document.getElementById("displayResult").innerHTML = "It's a Tie!";
+    let stringA = RPSarr[numA];
+    if (stringA === rockString) {
+        document.getElementById("displayResult").innerHTML = "It's a Tie!";
     }
-   else if (stringA === "Paper") {
+    else if (stringA === "Paper") {
         document.getElementById("displayResult").innerHTML = "The Computer Won.";
     }
     else if (stringA === "Scissors") {
