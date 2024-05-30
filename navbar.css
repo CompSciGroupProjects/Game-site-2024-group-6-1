@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+#navList {
+    background-color: #9406e0;
+    list-style-type: none;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    z-index: 1;
+}
+
+.navitem {
+    float: left;
+    padding: 15px 15px;
+    color:  #ECE6EC;
+    text-decoration: none;
+    font-family: "Poetson One", sans-serif;
+}
+
+.active {
+    background-color: #3e015e;
+}
+
+
