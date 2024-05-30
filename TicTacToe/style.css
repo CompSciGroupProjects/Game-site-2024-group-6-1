@@ -1,19 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+body
+{
+    background-color: #18011c;
+    color: #ECE6EC;
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 #game
 {
-    margin-top: 5px;
     text-align: center;
+    justify-content: center;
 }
 .cell
 {
     width: 100px;
     height: 100px;
-    border: 2px solid;
+    border: 2px white solid;
     cursor: pointer;
     font-size: 75px;
 }
 #board
 {
+
     width: 300px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+button
+{
+    background-color: #9406e0;
+    color: #ECE6EC;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px;
 }

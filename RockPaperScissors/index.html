@@ -5,42 +5,52 @@
     <title>Rock Paper Scissors</title>
     <script src="javascript.js"></script>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+<div class="bodyDiv">
 
-<h2>
-    Make Your Choice:
-</h2>
-<div class="divclassA">
-Rock, Paper, or Scissors?
-    <button class="rockClass" onclick="rockFunc()"  type="button">Rock</button>
-    <button class="paperClass" onclick="paperFunc()" type="button">Paper</button>
-    <button class="scissorClass" onclick="scissorsFunc()" type="button">Scissors</button>
-</div>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">News</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">About</a></li>
+    </ul>
 
-<div class="userChoice">
-    <h2>You Picked:</h2>
-    <p id="userDisplay"></p>
-</div>
-<div class="ComputersStyle">
-    <h2>
-        The Computer Picks:
+    <h2 style="color:#ECE6EC;" class="h2STYLE">
+        Make Your Choice:
     </h2>
+    <div class="divclassA" style="color:#ECE6EC;">
+        Rock, Paper, or Scissors?
+        <button class="rockClass" onclick="rockFunc()" style="background-color: #9406e0; color: #ECE6EC; " type="button">Rock</button>
+        <button class="paperClass" onclick="paperFunc()" style="background-color: #9406e0; color: #ECE6EC" type="button">Paper</button>
+        <button class="scissorClass" onclick="scissorsFunc()" style="background-color: #9406e0; color: #ECE6EC" type="button">Scissors</button>
+    </div>
+
+    <div class="userChoice" style="color:#ECE6EC;">
+        <h2>You Picked:</h2>
+        <p id="userDisplay"></p>
+    </div>
+    <div class="ComputersStyle" style="color: #ECE6EC;">
+        <h2>
+            The Computer Picks:
+        </h2>
 
         <p id="Display1"></p>
 
+    </div>
+
+    <div class="winnerClass" style="color:#ECE6EC;">
+        <h1>
+            The Winner Is:
+        </h1>
+        <p id="displayResult"></p>
+    </div>
+
+
+</div>
+<div class="emptDiv">
 </div>
 
-<div class="winnerClass">
-    <h1>
-        The Winner Is:
-    </h1>
-    <p id="displayResult"></p>
-</div>
-
-<script>
-
-
-</script>
 </body>
 </html>
