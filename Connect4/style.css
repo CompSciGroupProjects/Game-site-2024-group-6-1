@@ -1,7 +1,8 @@
 body {
-    background-color: peachpuff;
+    background-color: #18011c;
     margin-top: 20px;
     text-align: center;
+    color: #ECE6EC;
     font-family: Arial, sans-serif;
 }
 
@@ -51,4 +52,6 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    background-color: #9406e0;
 }
+
