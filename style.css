@@ -41,3 +41,7 @@ body {
 #gameList {
     list-style-type: none;
 }
+
+.screenshot {
+    width: 20vw;
+}
