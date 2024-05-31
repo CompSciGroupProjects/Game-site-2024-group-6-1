@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazing Game Website</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="navbar">
+    <ul id="navList">
+        <li><a href="" class="navitem active">Home</a></li>
+        <li><a href="rules/RockPaperScissors" class="navitem">Rock Paper Scissors</a></li>
+        <li><a href="rules/TicTacToe" class="navitem">Tic Tac Toe</a></li>
+        <li><a href="rules/Connect4" class="navitem">Connect Four</a></li>
+        <li><a href="rules/Hangman" class="navitem">Hangman</a></li>
+    </ul>
+</div>
+<div id="titleContainer">
+    <h1>Allen, Anthony, Matt, and Rohan's<br>Amazing Gaming Website</h1>
+</div>
+<div id="gameContainers">
+    <ul id="gameList">
+        <li>
+            <div onclick="window.location.href ='rules/TicTacToe' "class="game">
+                <h1>Tic-Tac-Toe</h1>
+                <p>1-2 Players</p>
+                <p>3 by 3 grid, X/O, 3 in a row!</p>
+            </div>
+        </li>
+        <li>
+            <div onclick="window.location.href ='rules/Connect4'"class="game">
+                <h1>Connect Four</h1>
+                <p>2 Players</p>
+                <p>Get 4 dots in a row to win!</p>
+            </div>
+        </li>
+        <li>
+            <div onclick="window.location.href ='rules/RockPaperScissors'" class="game">
+                <h1>Rock Paper Scissors</h1>
+                <p>1 Player</p>
+                <p>Rock vs Paper vs Scissors!</p>
+            </div>
+        </li>
+        <li>
+            <div onclick="window.location.href ='rules/Hangman'"class="game">
+                <h1>Hangman</h1>
+                <p>1 Player</p>
+                <p>Guess the random word in 7 lives!</p>
+            </div>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

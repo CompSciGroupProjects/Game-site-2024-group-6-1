@@ -1,12 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+.bodyDiv{
+    background-color: #18011c;
+    min-height: 100vh;
+
+}
+
+
+
 .ComputersStyle{
-padding-top: 65px;
+    padding-top: 65px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
 .winnerClass{
     padding-top: 50px;
-    color: red;
-    text-align: center
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 .displayStyle{
@@ -16,3 +31,38 @@ padding-top: 65px;
 .rockClass{
 
 }
+
+.divclassA{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.h2STYLE{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.userChoice{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rockClass{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.paperClass{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.scissorClass{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
