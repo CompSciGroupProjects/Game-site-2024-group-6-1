@@ -66,16 +66,14 @@
 body {
     background-color: #18011c;
     color: #ECE6EC;
-    font-family: "Poetson One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Poetsen One", sans-serif;
 }
 
 button {
     background-color: #9406e0;
     color: #ECE6EC;
     border-style: none;
-    font-family: "Poetson One", sans-serif;
+    font-family: "Poetsen One", sans-serif;
     border-radius: 25px;
     margin: 0.1vw;
 }
