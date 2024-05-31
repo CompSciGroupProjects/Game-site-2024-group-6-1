@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
 body {
     background-color: #18011c;
     margin-top: 72px;
     text-align: center;
     color: #ECE6EC;
-    font-family: Arial, sans-serif;
+    font-family: "Poetsen One", sans-serif;
 }
 
 
@@ -53,4 +55,6 @@ body {
     font-size: 16px;
     cursor: pointer;
     background-color: #9406e0;
+    color: #ECE6EC;
+    font-family: "Poetsen One", sans-serif;
 }
