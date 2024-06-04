@@ -34,6 +34,8 @@ button
 {
     background-color: #9406e0;
     color: #ECE6EC;
+    border-radius: 10px;
+    border: none;
     text-align: center;
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
