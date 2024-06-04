@@ -20,7 +20,7 @@
 }
 
 #spacesList li {
-    margin: 1vw;
+    margin: -1vw;
     font-size: 5vw;
     transition: margin 250ms;
 }

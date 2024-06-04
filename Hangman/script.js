@@ -10,7 +10,7 @@ async function initializeGame() {
     await loadWords();
     chooseWord();
     document.getElementById("lives").innerHTML = "Lives Left: " + lives;
-    establishSpaces();
+    await establishSpaces();
     establishListeners();
 }
 
@@ -49,16 +49,22 @@ function incorrectGuess(letter) {
     document.getElementById("incorrectLetters").innerHTML += "<li><h3>"  + letter + "</h3></li>";
 }
 
-function establishSpaces() {
+async function establishSpaces() {
     var spacesNeeded = chosenWord.length;
     var spacesList = document.getElementById("spacesList");
     for(var i = 0; i < spacesNeeded; i++) {
         if(chosenWord.charAt(i) === "-" || chosenWord.charAt(i) === " ") {
-            spacesList.innerHTML += "<li id='space" + i + "'>" + chosenWord.charAt(i) + "</li>"
+            spacesList.innerHTML += "<li class='spaces' id='space" + i + "'>" + chosenWord.charAt(i) + "</li>"
             continue;
         }
-        spacesList.innerHTML += "<li id='space" + i + "'>_</li>"
+        spacesList.innerHTML += "<li class='spaces' id='space" + i + "'>_</li>"
     }
+    var spaces = document.getElementsByClassName("spaces");
+    for(var i =0; i < spaces.length; i++) {
+        await delay(50);
+        spaces[i].style.margin = "1vw";
+    }
+
 }
 
 function establishListeners() {
